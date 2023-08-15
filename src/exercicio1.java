@@ -1,23 +1,19 @@
-import java.util.Scanner;
-
 public class exercicio1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite a base maior do trapézio: ");
-        double baseMaior = scanner.nextDouble();
+        double baseMaior = 5;
 
         System.out.print("Digite a base menor do trapézio: ");
-        double baseMenor = scanner.nextDouble();
+        double baseMenor = 3;
 
         System.out.print("Digite a altura do trapézio: ");
-        double altura = scanner.nextDouble();
+        double altura = 4;
 
         double area = (baseMaior + baseMenor) * altura / 2;
 
         System.out.println("A área do trapézio é: " + area);
 
-        scanner.close();
     }
 }
 
